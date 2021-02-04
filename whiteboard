@@ -1,0 +1,21 @@
+not case-sensitive
+const string = "I don't know why did I decide to start coding?"
+
+function stringCounter(string) {
+returnedArray = [];
+string.toLowerCase();
+
+
+return returnedArray;
+}
+
+Expectations:
+returnedArray([0]).toEqual(1);
+stringCounter(string).toEqual(returnedArray);
+
+input can take any characers, but only count letters 
+
+
+write a section for user input, and use that inputted string to count the letters
+function should work for string of a any length
+
