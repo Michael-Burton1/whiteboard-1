@@ -5,7 +5,7 @@ export default function letterCounter(stringArray, keyArray, returnedArray) {
     return true;
     }
     else {
-      return false;
+    return false;
     }
   };
 };
