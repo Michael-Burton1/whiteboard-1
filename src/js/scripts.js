@@ -1,6 +1,6 @@
 const string = "I don't know why I decided to start coding?"
 
-function createStringArray() {
+export function createStringArray() {
   stringArray = []
   let lowerCaseString = string.toLowerCase();
   stringArray.push(lowerCaseString.split(''));
@@ -23,15 +23,15 @@ const keyArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p
 //     }
 //   }
 // };
-
-for(i = 0; i < stringArray.length; i ++){
-  switch (stringArray[i]) {
-    case (keyArray[0]):
-      (returnedArray[0] += 1);
-      break;
+export function letterCounter() {
+  for(i = 0; i < stringArray.length; i ++){
+    switch (stringArray[i]) {
+      case (keyArray[0]):
+        (returnedArray[0] += 1);
+        break;
     };
   };
-
+}
 
   for(i = 0; i < stringArray.length; i ++){
     if (stringArray[i] = keyArray[0]) {
